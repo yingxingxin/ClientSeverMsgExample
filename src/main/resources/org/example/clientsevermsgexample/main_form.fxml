@@ -38,7 +38,16 @@
                   </AnchorPane>
             </content>
           </TitledPane>
-
+            <TitledPane animated="false" text="Chat">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <Button fx:id="user1_client" layoutX="100.0" mnemonicParsing="false" onAction="#startClient" text="User 1" />
+                            <Button fx:id="user2_server" layoutX="350.0" mnemonicParsing="false" onAction="#startServer" text="User 2" />
+                        </children>
+                    </AnchorPane>
+                </content>
+            </TitledPane>
         </panes>
       </Accordion>
    </children>
